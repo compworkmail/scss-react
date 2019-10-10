@@ -1,0 +1,19 @@
+article {
+    border: 2px solid black;
+}
+
+.testClass {
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    height: 30px;
+    width: 100%;
+}
+
+.mainMenu {
+    list-style: none;
+}
+
+.mainMenu li {
+    text-transform: uppercase;
+}
