@@ -114,16 +114,15 @@ body {
     width: 100%;
     max-width: 486px;
     position: absolute;
-    bottom: 204px;
+    top: -205px;
     left: 50%;
-    margin-top: 204px;
     margin-left: -243px;
-}
 
-.giftCardSettigns {
-    margin-top: 230px;
-    display: flex;
-    justify-content: center;
+    &--labelWrapper {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 20px 0;
+    }
 }
 
 .btn {
@@ -165,7 +164,7 @@ body {
     &--light {
         color: #212529;
         background-color: #f8f9fa;
-        border-color: #f8f9fa;
+        border-color: grey;
 
         &:hover {
             color: #212529;
@@ -177,6 +176,23 @@ body {
         &.focus {
             box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, 0.5);
         }
+    }
+}
+
+.giftCardSettigns {
+    width: 60%;
+    margin: 200px auto 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &--horizLine {
+        width: 100%;
+    }
+
+    &--pricBtn {
+        padding: 15px 20px;
+        margin: 0 5px 0 5px;
     }
 }
 
@@ -192,4 +208,14 @@ body {
 .main {
     display: flex;
     position: relative;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
