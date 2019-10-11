@@ -13,112 +13,120 @@
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <title>React App</title>
     </head>
-    <body>
+    <body class="body">
         <noscript>You need to enable JavaScript to run this app.</noscript>
-
-        <section class="mainContentWrapper">
-            <header>
-                <section class="topHeaderWrapper">
-                    <section class="logoWraper">
-                        <img src="/img/logo.svg" alt="logo" />
-                    </section>
-                    <section class="rightMenuWrapper">
-                        <nav class="mainTopNav">
-                            <ul class="mainMenu">
-                                <li class="mainMenu--item">
-                                    <a
-                                        href="#"
-                                        class="upperCaseText mainMenu--item-link"
-                                        >shop</a
-                                    >
-                                </li>
-                                <li class="mainMenu--item">
-                                    <a
-                                        href="#"
-                                        class="upperCaseText mainMenu--item-link"
-                                        >redeem</a
-                                    >
-                                </li>
-                                <li class="mainMenu--item">
-                                    <a
-                                        href="#"
-                                        class="upperCaseText mainMenu--item-link"
-                                        >support</a
-                                    >
-                                </li>
-                                <li class="mainMenu--item">
-                                    <a
-                                        href="#"
-                                        class="upperCaseText mainMenu--item-link"
-                                        >log in</a
-                                    >
-                                </li>
-                                <li class="mainMenu--item">
-                                    <a
-                                        href="#"
-                                        class="upperCaseText mainMenu--item-link"
-                                        >sign up</a
-                                    >
-                                </li>
-                            </ul>
-                        </nav>
-                    </section>
-                </section>
+        <section class="mainContent">
+            <header class="header">
+                <div class="logoWraper">
+                    <img src="/img/logo.svg" alt="logo" />
+                </div>
+                <div class="rightMenuWrapper">
+                    <nav class="mainTopNav">
+                        <ul class="mainMenu">
+                            <li class="mainMenu--item">
+                                <a
+                                    href="#"
+                                    class="upperCaseText mainMenu--item-link"
+                                    >shop</a
+                                >
+                            </li>
+                            <li class="mainMenu--item">
+                                <a
+                                    href="#"
+                                    class="upperCaseText mainMenu--item-link"
+                                    >redeem</a
+                                >
+                            </li>
+                            <li class="mainMenu--item">
+                                <a
+                                    href="#"
+                                    class="upperCaseText mainMenu--item-link"
+                                    >support</a
+                                >
+                            </li>
+                            <li class="mainMenu--item">
+                                <a
+                                    href="#"
+                                    class="upperCaseText mainMenu--item-link"
+                                    >log in</a
+                                >
+                            </li>
+                            <li class="mainMenu--item">
+                                <a
+                                    href="#"
+                                    class="upperCaseText mainMenu--item-link btn btn--primary"
+                                    >sign up</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
-            <main class="mainContent">
-                <aside class="floatingWindow">
-                    <section>
-                        Create your Dagcoin Giftcard
-                    </section>
-                    <section>
-                        <img class="shadow" src="/img/card.jpg" alt="card" />
-                    </section>
-                </aside>
-                <section class="giftCardSettigns">
-                    <section class="upperCaseText">
-                        Choose gift card amount
-                    </section>
+            <main class="main">
+                <section class="floatingWindow">
+                    <h2>Create your Dagcoin Giftcard</h2>
+                    <img class="shadow" src="/img/card.jpg" alt="card" />
                 </section>
-                <section>
-                    <form>
-                        <section>
-                            <section>
-                                <input
-                                    type="text"
-                                    name="email"
-                                    placeholder="email here"
-                                />
-                            </section>
-                            <section>
-                                <input
-                                    type="text"
-                                    name="message"
-                                    placeholder="message here"
-                                />
-                            </section>
-                        </section>
 
-                        <section>
-                            <button type="button">Proceed</button>
-                        </section>
+                <section class="giftCardSettigns">
+                    <h4 class="sub-title">Choose gift card amount</h4>
+                    <form>
+                        <fieldset class="form-group">
+                            <input
+                                type="text"
+                                name="email"
+                                placeholder="email here"
+                            />
+                            <input
+                                type="text"
+                                name="message"
+                                placeholder="message here"
+                            />
+                        </fieldset>
+                        <button type="button">Proceed</button>
                     </form>
                 </section>
             </main>
+            <footer class="footer">
+                <div class="footer--top">
+                    <div class="footer--logoWrap">
+                        <img src="/img/dagcoin.svg" alt="logo" />
+                        <span class="upperCaseText footer--top-label"
+                            >dagcoin</span
+                        >
+                    </div>
+                    <ul class="footer--top-nav">
+                        <li>
+                            <a class="footer--top-nav-link upperCaseText" href="#">shop</a>
+                        </li>
+                        <li>
+                            <a class="footer--top-nav-link upperCaseText" href="#">support</a>
+                        </li>
+                        <li>
+                            <a class="footer--top-nav-link upperCaseText" href="#">sign in</a>
+                        </li>
+                        <li>
+                            <a class="btn btn--light upperCaseText noDecoration" href="#">
+                                sign up
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer--bottom">
+                    <ul class="footer--bottom-nav">
+                        <li>
+                            <a href=#">Dagcoin Gift Card 2019</a>
+                        </li>
+                        <li>
+                            <a href=#">Copyright (c), all rights reserved</a>
+                        </li>
+                        <li>
+                            <a href=#">Terms of Service and Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
         </section>
-        <footer class="footer">
-            <section>
-                <section>
-                    logo here
-                </section>
-                <section>
-                    <nav>footer menu here</nav>
-                </section>
-            </section>
-            <section>
-                links here
-            </section>
-        </footer>
-
         <div id="root"></div>
     </body>
 </html>
