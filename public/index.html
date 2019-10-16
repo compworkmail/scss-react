@@ -23,38 +23,38 @@
                 <div class="rightMenuWrapper">
                     <nav class="mainTopNav">
                         <ul class="mainMenu">
-                            <li class="mainMenu--item">
+                            <li class="mainMenu__item">
                                 <a
                                     href="#"
-                                    class="upperCaseText mainMenu--item-link"
+                                    class="upperCaseText mainMenu__item-link"
                                     >shop</a
                                 >
                             </li>
-                            <li class="mainMenu--item">
+                            <li class="mainMenu__item">
                                 <a
                                     href="#"
-                                    class="upperCaseText mainMenu--item-link"
+                                    class="upperCaseText mainMenu__item-link"
                                     >redeem</a
                                 >
                             </li>
-                            <li class="mainMenu--item">
+                            <li class="mainMenu__item">
                                 <a
                                     href="#"
-                                    class="upperCaseText mainMenu--item-link"
+                                    class="upperCaseText mainMenu__item-link"
                                     >support</a
                                 >
                             </li>
-                            <li class="mainMenu--item">
+                            <li class="mainMenu__item">
                                 <a
                                     href="#"
-                                    class="upperCaseText mainMenu--item-link"
+                                    class="upperCaseText mainMenu__item-link"
                                     >log in</a
                                 >
                             </li>
-                            <li class="mainMenu--item">
+                            <li class="mainMenu__item">
                                 <a
                                     href="#"
-                                    class="upperCaseText mainMenu--item-link btn btn--primary"
+                                    class="upperCaseText mainMenu__item-link btn btn__primary"
                                     >sign up</a
                                 >
                             </li>
@@ -64,84 +64,161 @@
             </header>
             <main class="main">
                 <section class="floatingWindow">
-                    <span class="floatingWindow--labelWrapper">
+                    <span class="floatingWindow__labelWrapper">
                         <h2>Create your Dagcoin Giftcard</h2>
                     </span>
                     <img class="shadow" src="/img/card.jpg" alt="card" />
                 </section>
 
                 <section class="giftCardSettigns">
-                    <h4 class="giftCardSettigns--subTitle">Choose gift card amount</h4>
-                    <span class="giftCardSettigns--horizLine"><hr></span>
+                    <h4>
+                        Choose gift card amount
+                    </h4>
+                    <span class="giftCardSettigns__horizLine"><hr /></span>
                     <span>
-                        <a href="#" class="btn btn--light noDecoration giftCardSettigns--pricBtn">
+                        <a
+                            href="#"
+                            class="btn btn__light noDecoration giftCardSettigns__pricBtn"
+                        >
                             5 &euro;
                         </a>
-                        <a href="#" class="btn btn--light noDecoration giftCardSettigns--pricBtn">
+                        <a
+                            href="#"
+                            class="btn btn__light noDecoration giftCardSettigns__pricBtn"
+                        >
                             10 &euro;
                         </a>
-                        <a href="#" class="btn btn--light noDecoration giftCardSettigns--pricBtn">
+                        <a
+                            href="#"
+                            class="btn btn__light noDecoration giftCardSettigns__pricBtn"
+                        >
                             20 &euro;
                         </a>
-                        <a href="#" class="btn btn--primary noDecoration giftCardSettigns--pricBtn shadow">
+                        <a
+                            href="#"
+                            class="btn btn__primary noDecoration giftCardSettigns__pricBtn shadow"
+                        >
                             50 &euro;
-                        </a>    
-                        <a href="#" class="btn btn--light noDecoration giftCardSettigns--pricBtn">
+                        </a>
+                        <a
+                            href="#"
+                            class="btn btn__light noDecoration giftCardSettigns__pricBtn"
+                        >
                             100 &euro;
-                        </a>                        
+                        </a>
                     </span>
-                    <form>
-                        <fieldset class="form-group">
-                            <input
-                                type="text"
-                                name="email"
-                                placeholder="email here"
-                            />
-                            <input
-                                type="text"
-                                name="message"
-                                placeholder="message here"
-                            />
-                        </fieldset>
-                        <button type="button">Proceed</button>
+                    <h5 class="giftCardSettigns__total-amount">
+                        Total amount in dags
+                    </h5>
+                    <h1 class="giftCardSettigns__sum">100 &euro;</h1>
+                    <h4 class="giftCardSettigns__sub-title">
+                        Enter gift card details
+                    </h4>
+                    <span class="giftCardSettigns__horizLine"><hr /></span>
+                    <span class="giftCardSettigns__button-group-wrapper">
+                        <h6 class="upperCaseText giftCardSettigns__send-to">
+                            send to
+                        </h6>
+                        <span class="giftCardSettigns__button-group-cont">
+                            <a
+                                href="#"
+                                class="btn btn__light noDecoration giftCardSettigns__btn"
+                                >Me</a
+                            >
+                            <a
+                                href="#"
+                                class="btn btn__dark noDecoration giftCardSettigns__btn"
+                                >Someone</a
+                            >
+                        </span>
+                    </span>
+                    <form class="giftCardSettigns__form">
+                        <span class="giftCardSettigns__form-fields">
+                            <div class="giftCardSettigns__form-fields_field">
+                                <label for="email" class="upperCaseText"
+                                    >Email</label
+                                >
+                                <input
+                                    class="giftCardSettigns__form-input"
+                                    id="email"
+                                    type="text"
+                                    name="email"
+                                    placeholder="email here"
+                                />
+                            </div>
+                            <div class="giftCardSettigns__form-fields_field">
+                                <label for="message" class="upperCaseText"
+                                    >Message</label
+                                >
+                                <input
+                                    class="giftCardSettigns__form-input"
+                                    id="message"
+                                    type="text"
+                                    name="message"
+                                    placeholder="message here"
+                                />
+                            </div>
+                        </span>
+                        <span class="giftCardSettigns__form-proceed-wrap">
+                            <a
+                                href="#"
+                                class="btn btn__primary noDecoration proceed-button"
+                                >Proceed</a
+                            >
+                        </span>
                     </form>
                 </section>
             </main>
             <footer class="footer">
-                <div class="footer--top">
-                    <div class="footer--logoWrap">
+                <div class="footer__top">
+                    <div class="footer__logoWrap">
                         <img src="/img/dagcoin.svg" alt="logo" />
-                        <span class="upperCaseText footer--top-label"
+                        <span class="upperCaseText footer__top-label"
                             >dagcoin</span
                         >
                     </div>
-                    <ul class="footer--top-nav">
+                    <ul class="footer__top-nav">
                         <li>
-                            <a class="footer--top-nav-link upperCaseText" href="#">shop</a>
+                            <a
+                                class="footer__top-nav-link upperCaseText"
+                                href="#"
+                                >shop</a
+                            >
                         </li>
                         <li>
-                            <a class="footer--top-nav-link upperCaseText" href="#">support</a>
+                            <a
+                                class="footer__top-nav-link upperCaseText"
+                                href="#"
+                                >support</a
+                            >
                         </li>
                         <li>
-                            <a class="footer--top-nav-link upperCaseText" href="#">sign in</a>
+                            <a
+                                class="footer__top-nav-link upperCaseText"
+                                href="#"
+                                >sign in</a
+                            >
                         </li>
                         <li>
-                            <a class="btn btn--light upperCaseText noDecoration" href="#">
+                            <a
+                                class="btn btn__light upperCaseText noDecoration"
+                                href="#"
+                            >
                                 sign up
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="footer--bottom">
-                    <ul class="footer--bottom-nav">
+                <div class="footer__bottom">
+                    <ul class="footer__bottom-nav">
                         <li>
-                            <a href=#">Dagcoin Gift Card 2019</a>
+                            <a href="#">Dagcoin Gift Card 2019</a>
                         </li>
                         <li>
-                            <a href=#">Copyright (c), all rights reserved</a>
+                            <a href="#">Copyright (c), all rights reserved</a>
                         </li>
                         <li>
-                            <a href=#">Terms of Service and Privacy Policy</a>
+                            <a href="#">Terms of Service and Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
